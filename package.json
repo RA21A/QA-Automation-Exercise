@@ -1,0 +1,16 @@
+{
+  "name": "qa-automation-framework-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Empty QA Automation Framework template using Cypress and JavaScript",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:ui": "cypress run --spec \"cypress/e2e/ui/**/*.cy.js\"",
+    "test:api": "cypress run --spec \"cypress/e2e/api/**/*.cy.js\""
+  },
+  "devDependencies": {
+    "cypress": "^13.9.0",
+    "cypress-mochawesome-reporter": "^5.0.0"
+  }
+}
